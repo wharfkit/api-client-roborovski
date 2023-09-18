@@ -1,0 +1,7 @@
+node_modules/
+lib/
+coverage/
+.nyc_output/
+test/browser.html
+site/
+docs_build/
