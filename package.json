@@ -1,11 +1,11 @@
 {
-    "name": "@wharfkit/api-client-template",
+    "name": "@wharfkit/roborovski",
     "description": "Template to start building new API clients using Wharf",
     "version": "0.0.0",
-    "homepage": "https://github.com/wharfkit/api-client-template",
-    "main": "lib/api-client-template.js",
-    "module": "lib/api-client-template.m.js",
-    "types": "lib/api-client-template.d.ts",
+    "homepage": "https://github.com/wharfkit/roborovski",
+    "main": "lib/roborovski.js",
+    "module": "lib/roborovski.m.js",
+    "types": "lib/roborovski.d.ts",
     "browser": {
         "buffer": false,
         "crypto": false

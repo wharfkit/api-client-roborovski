@@ -1,4 +1,4 @@
-# @wharfkit/api-client-template
+# @wharfkit/roborovski
 
 Template for creating new api-client instances for use in Wharf.
 
