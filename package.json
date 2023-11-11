@@ -19,11 +19,8 @@
         "prepare": "make"
     },
     "dependencies": {
-        "@wharfkit/antelope": "^0.9.1",
+        "@wharfkit/antelope": "^1.0.0",
         "tslib": "^2.0.3"
-    },
-    "resolutions": {
-        "@wharfkit/antelope": "^0.9.1"
     },
     "devDependencies": {
         "@rollup/plugin-alias": "^4.0.3",
@@ -40,7 +37,7 @@
         "@types/node": "^18.6.5",
         "@typescript-eslint/eslint-plugin": "^5.4.0",
         "@typescript-eslint/parser": "^5.4.0",
-        "@wharfkit/mock-data": "^1.0.2",
+        "@wharfkit/mock-data": "^1.2.1",
         "chai": "^4.3.4",
         "eslint": "^8.26.0",
         "eslint-config-prettier": "^8.1.0",
