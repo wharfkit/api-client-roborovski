@@ -48,12 +48,12 @@ suite('api', function () {
 
     test('get_actions (first 10)', async function () {
         const res = await robo.get_actions('teamgreymass', {
-            start: 1,
+            start: 0,
             limit: 10,
         })
         const test = res.actions.map((a) => Number(a.account_action_seq))
-        assert.equal(test[0], 1)
-        assert.equal(test[9], 10)
+        assert.equal(test[0], 0)
+        assert.equal(test[9], 9)
     })
 
     test('get_actions (second 10)', async function () {

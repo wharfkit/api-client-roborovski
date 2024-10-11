@@ -1,6 +1,6 @@
 {
     "name": "@wharfkit/roborovski",
-    "description": "Template to start building new API clients using Wharf",
+    "description": "API Client to access Roborovski API endpoints",
     "version": "1.0.0",
     "homepage": "https://github.com/wharfkit/roborovski",
     "main": "lib/roborovski.js",

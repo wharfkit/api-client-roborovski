@@ -33,7 +33,7 @@ export class RoborovskiClient {
         }
 
         if (options) {
-            if (options.start) {
+            if (options.start !== undefined) {
                 params['pos'] = Int32.from(options.start)
             }
             if (options.limit) {
